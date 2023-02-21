@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #e4f9f5;
+    font-size: 2em;
+
+}
+h1{
+    font-size: 5.625rem;  /*16px=100%=1em  here: 90px=562.5%=5.625em   rem it's ignore all the parent sizing*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.top-container{
+    
+    position: relative;
+    padding-top: 100px;
+    /*
+    background-color: #e4f9f5;
+    height: 200px;
+    border: solid 10px;
+    padding: 20px;*/
+}
+
+.middle-container {
+    background-color: white;
+    margin: 100px 0;
+    /*width: 200px;
+    height: 200px; 
+    border: solid 20px;
+    margin-left: 260px;*/
+}
+.bottom-container {
+    /*background-color: #e4f9f5;
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    margin-left: 500px;*/
+
+}
+.pro{
+    text-decoration: underline;
+}
+.profile{
+    width: 50%;
+    line-height: 2;
+    margin: 0px auto 200px auto;
+}
+.profile-img{
+    margin-top: 5%;
+}
+.bottom-cloud{
+  position: absolute;  
+  left: 30%;
+  bottom: 55%;
+}
+.top-cloud{
+    position: absolute; 
+    right: 35%;
+    top: 10%; 
+  }
+
+.skill-row{
+    width: 50%;
+    margin: 200px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.dev-img{
+    width: 25% ;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.test-img{
+    width: 25% ;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.db-img{
+    width: 25% ;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
